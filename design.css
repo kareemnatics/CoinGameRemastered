@@ -1,0 +1,62 @@
+body{
+	background-color:black;
+	}
+h1,h4,a{
+	text-decoration:initial;
+	color:black;
+	text-align:left;
+}
+
+
+}
+#Close{
+	margin: auto;
+	padding-left: 428px;
+}
+#B1{
+background-image:url("1.jpg");
+background-size: 600px 200px;
+background-repeat:no-repeat;
+background-repeat:fixed;
+max-height: 500px;	
+	}
+
+
+#score {
+	margin-left:225px ;
+	text-align: left;
+	color: #fff;
+	font-weight: bold;
+	font-size: 22px;
+	-moz-text-shadow: 2px 2px 1px #248742;
+	-webkit-text-shadow: 2px 4px 1px #248742;
+	text-shadow: 2px 2px 1px #248742;
+}
+
+#coinTapGameContainer {
+	
+	background-image: url("images/coin-tap-game-hud.png");
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-radius: 5px;
+	border-style: outset;
+	border-color: black;
+	width: 460px;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 24px;
+	-webkit-user-select: none;  
+	-moz-user-select: none;    
+	-ms-user-select: none;      
+	user-select: none;
+	float:left;
+}
+
+#coinTapGameContainer canvas {
+
+	margin: 0;
+	padding: 0;
+	width: 460px;
+	height: 200px;
+	float:left;
+}
